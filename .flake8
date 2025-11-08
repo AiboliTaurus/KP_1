@@ -1,0 +1,10 @@
+[flake8]
+# Максимальная длина строки
+max_line_length = 120
+
+# Исключения из проверки
+exclude =
+    .git
+    __pycache__
+    venv
+    .venv
