@@ -1,0 +1,78 @@
+{
+  "greeting": "Доброе утро",
+  "cards": [
+    {
+      "card_number": "*XXXX",
+      "total_amount": -2725.84,
+      "cashback": 27.26
+    },
+    {
+      "card_number": "*4556",
+      "total_amount": -500.0,
+      "cashback": 5.0
+    },
+    {
+      "card_number": "*7197",
+      "total_amount": -5266.75,
+      "cashback": 52.67
+    }
+  ],
+  "top_transactions": [
+    {
+      "date": "12.01.2021",
+      "amount": 8000.0,
+      "category": "Пополнения",
+      "description": "Перевод с карты",
+      "card_number": ""
+    },
+    {
+      "date": "14.01.2021",
+      "amount": 709.6,
+      "category": "Ж/д билеты",
+      "description": "РЖД",
+      "card_number": "*7197"
+    },
+    {
+      "date": "08.01.2021",
+      "amount": -28.0,
+      "category": "Супермаркеты",
+      "description": "Magazin 14",
+      "card_number": "*7197"
+    },
+    {
+      "date": "13.01.2021",
+      "amount": -40.0,
+      "category": "Рестораны",
+      "description": "Rbe288",
+      "card_number": "*7197"
+    }
+  ],
+  "currency_rates": [
+    {
+      "currency": "USD",
+      "rate": 1
+    },
+    {
+      "currency": "EUR",
+      "rate": 0.8566
+    },
+    {
+      "currency": "GBP",
+      "rate": 0.7428
+    }
+  ],
+  "stock_prices": [
+    {
+      "stock": "AAPL",
+      "price": 261.05
+    },
+    {
+      "stock": "GOOGL",
+      "price": 335.97
+    },
+    {
+      "stock": "MSFT",
+      "price": 470.67
+    }
+  ]
+}
