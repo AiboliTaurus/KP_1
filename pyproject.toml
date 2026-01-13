@@ -7,24 +7,31 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-
-
-[project.dependencies]
-python-dotenv = ">=1.1.1,<2.0.0"
-requests = ">=2.32.5,<3.0.0"
-pandas = ">=2.3.3,<3.0.0"
+dependencies = [
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-
 [tool.poetry.group.lint.dependencies]
 flake8 = "^7.3.0"
 black = "^25.9.0"
 isort = "^6.0.1"
 mypy = "^1.18.2"
+
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^7.0.0"
+
+[tool.poetry]
+package-mode = false
 
 [tool.black]
 line-length = 119
